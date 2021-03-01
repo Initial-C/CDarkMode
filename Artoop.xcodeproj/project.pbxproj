@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E87AB15EC0F0767B692D85 /* Pods_Artoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97859032AF90E385D3486D4 /* Pods_Artoop.framework */; };
+		740DD1D225C7AE6D00C5C687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740DD1D125C7AE6D00C5C687 /* AppDelegate.swift */; };
+		740DD1D425C7AE6D00C5C687 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740DD1D325C7AE6D00C5C687 /* SceneDelegate.swift */; };
+		740DD1D625C7AE6D00C5C687 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740DD1D525C7AE6D00C5C687 /* MainViewController.swift */; };
+		740DD1D925C7AE6D00C5C687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740DD1D725C7AE6D00C5C687 /* Main.storyboard */; };
+		740DD1DC25C7AE6D00C5C687 /* Artoop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740DD1DA25C7AE6D00C5C687 /* Artoop.xcdatamodeld */; };
+		740DD1DE25C7AE7000C5C687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740DD1DD25C7AE7000C5C687 /* Assets.xcassets */; };
+		740DD1E125C7AE7000C5C687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740DD1DF25C7AE7000C5C687 /* LaunchScreen.storyboard */; };
+		747C377625C7EC1B00683C80 /* Universal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C377525C7EC1B00683C80 /* Universal.swift */; };
+		747C377825C7EE1900683C80 /* SettingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C377725C7EE1900683C80 /* SettingConfig.swift */; };
+		747C377A25C8F8BA00683C80 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C377925C8F8BA00683C80 /* BaseTabBarController.swift */; };
+		747C377C25C8FBAB00683C80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747C377B25C8FBAB00683C80 /* CoreGraphics.framework */; };
+		747C378025C8FC0300683C80 /* UIImage+cImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C377E25C8FC0300683C80 /* UIImage+cImage.m */; };
+		747C378325C8FC9000683C80 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C378225C8FC9000683C80 /* NSDate+Extension.m */; };
+		747C378525C908CF00683C80 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C378425C908CF00683C80 /* BaseNavigationController.swift */; };
+		747C378825C9095D00683C80 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C378625C9095D00683C80 /* MineViewController.swift */; };
+		747C378925C9095D00683C80 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C378725C9095D00683C80 /* MineViewController.xib */; };
+		747C378B25C9097000683C80 /* BestBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C378A25C9097000683C80 /* BestBaseViewController.swift */; };
+		747C378E25C90A4400683C80 /* Nibloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C378C25C90A4400683C80 /* Nibloadable.swift */; };
+		747C378F25C90A4400683C80 /* SubstringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C378D25C90A4400683C80 /* SubstringExtension.swift */; };
+		747C379125C90A5900683C80 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C379025C90A5900683C80 /* UIViewController+Extension.swift */; };
+		747C379325C93DD900683C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C379225C93DD900683C80 /* ViewController.swift */; };
+		747C379525C9781D00683C80 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C379425C9781D00683C80 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180F6C7E489BDC53058EB58A /* Pods-Artoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artoop.release.xcconfig"; path = "Target Support Files/Pods-Artoop/Pods-Artoop.release.xcconfig"; sourceTree = "<group>"; };
+		740DD1CE25C7AE6D00C5C687 /* Artoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740DD1D125C7AE6D00C5C687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740DD1D325C7AE6D00C5C687 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		740DD1D525C7AE6D00C5C687 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		740DD1D825C7AE6D00C5C687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740DD1DB25C7AE6D00C5C687 /* Artoop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Artoop.xcdatamodel; sourceTree = "<group>"; };
+		740DD1DD25C7AE7000C5C687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740DD1E025C7AE7000C5C687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740DD1E225C7AE7000C5C687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747C377525C7EC1B00683C80 /* Universal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universal.swift; sourceTree = "<group>"; };
+		747C377725C7EE1900683C80 /* SettingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingConfig.swift; sourceTree = "<group>"; };
+		747C377925C8F8BA00683C80 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		747C377B25C8FBAB00683C80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		747C377D25C8FC0300683C80 /* Artoop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artoop-Bridging-Header.h"; sourceTree = "<group>"; };
+		747C377E25C8FC0300683C80 /* UIImage+cImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cImage.m"; sourceTree = "<group>"; };
+		747C377F25C8FC0300683C80 /* UIImage+cImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cImage.h"; sourceTree = "<group>"; };
+		747C378125C8FC9000683C80 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		747C378225C8FC9000683C80 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		747C378425C908CF00683C80 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		747C378625C9095D00683C80 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		747C378725C9095D00683C80 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		747C378A25C9097000683C80 /* BestBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestBaseViewController.swift; sourceTree = "<group>"; };
+		747C378C25C90A4400683C80 /* Nibloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibloadable.swift; sourceTree = "<group>"; };
+		747C378D25C90A4400683C80 /* SubstringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubstringExtension.swift; sourceTree = "<group>"; };
+		747C379025C90A5900683C80 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		747C379225C93DD900683C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		747C379425C9781D00683C80 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AB7CB8193CED907599759376 /* Pods-Artoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artoop.debug.xcconfig"; path = "Target Support Files/Pods-Artoop/Pods-Artoop.debug.xcconfig"; sourceTree = "<group>"; };
+		E97859032AF90E385D3486D4 /* Pods_Artoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740DD1CB25C7AE6D00C5C687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747C377C25C8FBAB00683C80 /* CoreGraphics.framework in Frameworks */,
+				15E87AB15EC0F0767B692D85 /* Pods_Artoop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2979D993B62C7C989042B0F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CB8193CED907599759376 /* Pods-Artoop.debug.xcconfig */,
+				180F6C7E489BDC53058EB58A /* Pods-Artoop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		740DD1C525C7AE6D00C5C687 = {
+			isa = PBXGroup;
+			children = (
+				740DD1D025C7AE6D00C5C687 /* Artoop */,
+				740DD1CF25C7AE6D00C5C687 /* Products */,
+				2979D993B62C7C989042B0F7 /* Pods */,
+				FFC2C0476C408E980DF14C4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		740DD1CF25C7AE6D00C5C687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740DD1CE25C7AE6D00C5C687 /* Artoop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740DD1D025C7AE6D00C5C687 /* Artoop */ = {
+			isa = PBXGroup;
+			children = (
+				740DD1D125C7AE6D00C5C687 /* AppDelegate.swift */,
+				740DD1D325C7AE6D00C5C687 /* SceneDelegate.swift */,
+				740DD1D525C7AE6D00C5C687 /* MainViewController.swift */,
+				747C379425C9781D00683C80 /* MainViewController.xib */,
+				747C378625C9095D00683C80 /* MineViewController.swift */,
+				747C378725C9095D00683C80 /* MineViewController.xib */,
+				747C379225C93DD900683C80 /* ViewController.swift */,
+				740DD1D725C7AE6D00C5C687 /* Main.storyboard */,
+				740DD1DD25C7AE7000C5C687 /* Assets.xcassets */,
+				740DD1DF25C7AE7000C5C687 /* LaunchScreen.storyboard */,
+				740DD1E225C7AE7000C5C687 /* Info.plist */,
+				740DD1DA25C7AE6D00C5C687 /* Artoop.xcdatamodeld */,
+				747C377525C7EC1B00683C80 /* Universal.swift */,
+				747C377925C8F8BA00683C80 /* BaseTabBarController.swift */,
+				747C378425C908CF00683C80 /* BaseNavigationController.swift */,
+				747C378A25C9097000683C80 /* BestBaseViewController.swift */,
+				747C377725C7EE1900683C80 /* SettingConfig.swift */,
+				747C378C25C90A4400683C80 /* Nibloadable.swift */,
+				747C378D25C90A4400683C80 /* SubstringExtension.swift */,
+				747C379025C90A5900683C80 /* UIViewController+Extension.swift */,
+				747C377F25C8FC0300683C80 /* UIImage+cImage.h */,
+				747C377E25C8FC0300683C80 /* UIImage+cImage.m */,
+				747C378125C8FC9000683C80 /* NSDate+Extension.h */,
+				747C378225C8FC9000683C80 /* NSDate+Extension.m */,
+				747C377D25C8FC0300683C80 /* Artoop-Bridging-Header.h */,
+			);
+			path = Artoop;
+			sourceTree = "<group>";
+		};
+		FFC2C0476C408E980DF14C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747C377B25C8FBAB00683C80 /* CoreGraphics.framework */,
+				E97859032AF90E385D3486D4 /* Pods_Artoop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740DD1CD25C7AE6D00C5C687 /* Artoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740DD1E525C7AE7000C5C687 /* Build configuration list for PBXNativeTarget "Artoop" */;
+			buildPhases = (
+				2B1DDF70663CC52088508FCE /* [CP] Check Pods Manifest.lock */,
+				740DD1CA25C7AE6D00C5C687 /* Sources */,
+				740DD1CB25C7AE6D00C5C687 /* Frameworks */,
+				740DD1CC25C7AE6D00C5C687 /* Resources */,
+				2F2E5B498DD65E798DBCF703 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artoop;
+			productName = Artoop;
+			productReference = 740DD1CE25C7AE6D00C5C687 /* Artoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740DD1C625C7AE6D00C5C687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Artoop;
+				TargetAttributes = {
+					740DD1CD25C7AE6D00C5C687 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
+				};
+			};
+			buildConfigurationList = 740DD1C925C7AE6D00C5C687 /* Build configuration list for PBXProject "Artoop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740DD1C525C7AE6D00C5C687;
+			productRefGroup = 740DD1CF25C7AE6D00C5C687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740DD1CD25C7AE6D00C5C687 /* Artoop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740DD1CC25C7AE6D00C5C687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740DD1E125C7AE7000C5C687 /* LaunchScreen.storyboard in Resources */,
+				740DD1DE25C7AE7000C5C687 /* Assets.xcassets in Resources */,
+				747C379525C9781D00683C80 /* MainViewController.xib in Resources */,
+				740DD1D925C7AE6D00C5C687 /* Main.storyboard in Resources */,
+				747C378925C9095D00683C80 /* MineViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1DDF70663CC52088508FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Artoop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F2E5B498DD65E798DBCF703 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Artoop/Pods-Artoop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Artoop/Pods-Artoop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Artoop/Pods-Artoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740DD1CA25C7AE6D00C5C687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747C377825C7EE1900683C80 /* SettingConfig.swift in Sources */,
+				747C378825C9095D00683C80 /* MineViewController.swift in Sources */,
+				747C378E25C90A4400683C80 /* Nibloadable.swift in Sources */,
+				747C379125C90A5900683C80 /* UIViewController+Extension.swift in Sources */,
+				747C378F25C90A4400683C80 /* SubstringExtension.swift in Sources */,
+				740DD1DC25C7AE6D00C5C687 /* Artoop.xcdatamodeld in Sources */,
+				740DD1D625C7AE6D00C5C687 /* MainViewController.swift in Sources */,
+				747C377625C7EC1B00683C80 /* Universal.swift in Sources */,
+				747C377A25C8F8BA00683C80 /* BaseTabBarController.swift in Sources */,
+				747C378025C8FC0300683C80 /* UIImage+cImage.m in Sources */,
+				747C378B25C9097000683C80 /* BestBaseViewController.swift in Sources */,
+				740DD1D225C7AE6D00C5C687 /* AppDelegate.swift in Sources */,
+				740DD1D425C7AE6D00C5C687 /* SceneDelegate.swift in Sources */,
+				747C378525C908CF00683C80 /* BaseNavigationController.swift in Sources */,
+				747C379325C93DD900683C80 /* ViewController.swift in Sources */,
+				747C378325C8FC9000683C80 /* NSDate+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740DD1D725C7AE6D00C5C687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740DD1D825C7AE6D00C5C687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740DD1DF25C7AE7000C5C687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740DD1E025C7AE7000C5C687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740DD1E325C7AE7000C5C687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		740DD1E425C7AE7000C5C687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+		740DD1E625C7AE7000C5C687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7CB8193CED907599759376 /* Pods-Artoop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VBCWG699;
+				INFOPLIST_FILE = Artoop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.artoop.Artoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Artoop/Artoop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740DD1E725C7AE7000C5C687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180F6C7E489BDC53058EB58A /* Pods-Artoop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65VBCWG699;
+				INFOPLIST_FILE = Artoop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.artoop.Artoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Artoop/Artoop-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740DD1C925C7AE6D00C5C687 /* Build configuration list for PBXProject "Artoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740DD1E325C7AE7000C5C687 /* Debug */,
+				740DD1E425C7AE7000C5C687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740DD1E525C7AE7000C5C687 /* Build configuration list for PBXNativeTarget "Artoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740DD1E625C7AE7000C5C687 /* Debug */,
+				740DD1E725C7AE7000C5C687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		740DD1DA25C7AE6D00C5C687 /* Artoop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				740DD1DB25C7AE6D00C5C687 /* Artoop.xcdatamodel */,
+			);
+			currentVersion = 740DD1DB25C7AE6D00C5C687 /* Artoop.xcdatamodel */;
+			path = Artoop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 740DD1C625C7AE6D00C5C687 /* Project object */;
+}

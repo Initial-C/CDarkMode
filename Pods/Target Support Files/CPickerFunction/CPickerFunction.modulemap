@@ -1,0 +1,6 @@
+framework module CPickerFunction {
+  umbrella header "CPickerFunction-umbrella.h"
+
+  export *
+  module * { export * }
+}
